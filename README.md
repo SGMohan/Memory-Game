@@ -21,8 +21,9 @@ A classic memory card-matching game designed to test your memory and focus skill
 
 ---
 
-How to Play 🕹️
-8 Click on a card to flip it over.
+How to Play 🕹️:-
+
+* Click on a card to flip it over.
 * Try to find the matching card for each flip.
 * Match all pairs to win the game!
 * Use the Reset Game button to start over.
