@@ -83,10 +83,10 @@ function gameBoard() {
     card.setAttribute("data-id", i);
     card.innerHTML = `
             <div class="card-inner ">
-                <div class="card-front bg-white shadow-lg">
-                    <img src="./images/blank.png" alt="card back">
+                <div class="card-front bg-white shadow-lg rounded-lg">
+                    <img src="./images/blank.png" alt="card back" class="rounded-lg">
                 </div>
-                <div class="card-back ">
+                <div class="card-back">
                     <img src="${cardArr[i].img}" alt="${cardArr[i].name}">
                 </div>
             </div>
