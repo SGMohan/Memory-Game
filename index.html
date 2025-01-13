@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Jura:wght@700&family=Shadows+Into+Light&display=swap");
+    </style>
+  </head>
+  <body>
+    <div
+      class="container mx-auto flex flex-col items-center justify-center h-screen bg-all"
+    >
+      <div
+        class="border-4 border-white px-12 py-10 shadow-lg cursor-pointer bg-primary"
+      >
+        <h1
+          class="shadows-regular text-center font-bold text-3xl underline text-orange-950"
+        >
+          Memory Game
+        </h1>
+        <div id="grid" class="grid grid-cols-4 grid-rows-4 gap-8 my-8 border-2">
+          <!-- Add the game board elements here -->
+        </div>
+        <div class="flex justify-center mt-6">
+          <button class="resetButton jura-uniquifier">Reset Game</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>

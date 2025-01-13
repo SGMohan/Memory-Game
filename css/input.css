@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card {
+  @apply w-[100px] h-[100px] m-[5px] cursor-pointer;
+}
+
+.card-inner {
+  @apply w-full h-full transition-transform duration-[600ms] relative transform-style-3d;
+}
+
+.card.flipped .card-inner {
+  @apply rotate-y-[180deg];
+}
+
+.card-front,
+.card-back {
+  @apply absolute w-full h-full backface-hidden;
+}
+
+.card-back {
+  @apply rotate-y-[180deg];
+}
+
+.card img {
+  @apply w-full h-full object-cover;
+}
