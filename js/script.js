@@ -79,7 +79,7 @@ resetButton.addEventListener("click", resetGame);
 function gameBoard() {
   for (let i = 0; i < cardArr.length; i++) {
     const card = document.createElement("div");
-    card.className = "card bg-white shadow-lg rounded-lg shadow-black";
+    card.className = "card bg-white shadow-lg rounded-lg shadow-black ";
     card.setAttribute("data-id", i);
     card.innerHTML = `
             <div class="card-inner ">
